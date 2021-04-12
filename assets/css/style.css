@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper .header {
+    background-color: #bf6300;
+    padding: 15px 20px;
+    min-height: 100px;
+    float: left;
+    width: 100%;
+}
+
+#wrapper .header h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+}
+
+#wrapper .header p {
+    color: #fff;
+    font-size: 20px;
+    margin: -5px 0 0;
+    font-style: italic;
+}
+
