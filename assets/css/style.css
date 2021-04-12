@@ -88,7 +88,7 @@
     padding: 30px;
     background-color: #e9e9e9;
     margin: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #wrapper .about .about_left {
@@ -111,4 +111,44 @@
 
 #wrapper .about .about_right p {
     font-size: 20px;
+}
+
+#wrapper #myprojects {
+    text-align: center;
+}
+
+#wrapper #myprojects h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+#wrapper #myprojects .projects {
+    display: flex;
+    flex-direction: row;
+    clear: both;
+    padding: 0 10px;
+}
+
+#wrapper #myprojects .projects .project {
+    width: 33.33%;
+}
+
+#wrapper #myprojects .projects .project .project_box {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #e9e9e9;
+    min-height: 220px;
+}
+
+#wrapper #myprojects .projects .project .project_box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+#wrapper #myprojects .projects .project .project_box img {
+    width: 300px;
 }
