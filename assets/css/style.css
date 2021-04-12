@@ -27,3 +27,22 @@
     font-style: italic;
 }
 
+#wrapper .header .header_details {
+    width: 360px;
+    margin: 0 auto;
+}
+
+#wrapper .header .header_details .header_left {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#wrapper .header .header_details .header_right {
+    margin-top: 15px;
+    float: left;
+    text-align: center;
+}
