@@ -17,7 +17,6 @@
     font-weight: bold;
     margin: 0;
     font-family: 'Suez One', serif;
-    /* letter-spacing: 1px; */
 }
 
 #wrapper .header .header_details p {
@@ -194,6 +193,30 @@
     text-align: center;
     padding: 10px;
     font-size: 11px;
+}
+
+@media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait) {
+    #wrapper .menu{
+        padding: 0;
+    }
+    #wrapper .menu li, #wrapper .menu li a{
+        width: 100%;
+    }
+    #wrapper .about{
+        flex-direction: column;
+    }
+    #wrapper .about .about_left{
+        width: 100%;
+    }
+    #wrapper .about .about_right {
+        padding: 10px 0 20px;
+    }
+    #wrapper .projects{
+        flex-direction: column;
+    }
+    #wrapper .projects .project{
+        width: 100%;
+    }
 }
 
 
