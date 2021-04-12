@@ -46,3 +46,28 @@
     float: left;
     text-align: center;
 }
+
+#wrapper .menu {
+    background-color: #8dc6ed;
+    padding: 0 10px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+#wrapper .menu ul li {
+    display: inline-block;
+}
+
+#wrapper .menu ul li a {
+    color: #fff;
+    padding: 12px 30px;
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 -3px;
+}
+
