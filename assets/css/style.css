@@ -153,33 +153,41 @@
     width: 300px;
 }
 
-#wrapper .footer{
+#wrapper .footer {
     padding: 20px 30px;
     background-color: #8dc6ed;
     min-height: 100px;
     margin: 40px 0 0;
 }
-#wrapper .footer .footer_box h2{
+
+/* #wrapper .footer .footer_box {
+    text-align: left;
+} */
+
+#wrapper .footer .footer_box h2 {
     font-size: 25px;
     font-weight: bold;
     color: #fff;
     text-shadow: 0px 2px 3px #000;
 }
-#wrapper .footer .footer_box ul li img{
+
+#wrapper .footer .footer_box ul li {
+    margin: 10px 0;
+}
+
+#wrapper .footer .footer_box ul li img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
     float: left;
 }
-#wrapper .footer .footer_box ul li{
-    margin: 10px 0;
-}
-#wrapper .footer .footer_box ul li a, #wrapper .footer .footer_box ul li p{
+
+#wrapper .footer .footer_box ul li a, #wrapper .footer .footer_box ul li p {
     color: #fff;
     text-shadow: 0px 0px 3px #333;
 }
 
-#wrapper .footer_bottom{
+#wrapper .footer_bottom {
     background-color: #bf6300;
     margin: 0;
     color: #fff;
@@ -188,27 +196,4 @@
     font-size: 11px;
 }
 
-@media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait) {
-    #wrapper .menu{
-        padding: 0;
-    }
-    #wrapper .menu li, #wrapper .menu li a{
-        width: 100%;
-    }
-    #wrapper .about{
-        flex-direction: column;
-    }
-    #wrapper .about .about_left{
-        width: 100%;
-    }
-    #wrapper .about .about_right {
-        padding: 10px 0 20px;
-    }
-    #wrapper .projects{
-        flex-direction: column;
-    }
-    #wrapper .projects .project{
-        width: 100%;
-    }
-}
 
