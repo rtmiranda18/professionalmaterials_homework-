@@ -6,21 +6,21 @@
 #wrapper .header {
     background-color: #bf6300;
     padding: 15px 20px;
-    min-height: 100px;
+    min-height: 150px;
     float: left;
     width: 100%;
 }
 
-#wrapper .header h1 {
+#wrapper .header .header_details h1 {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
     font-family: 'Fredoka One', cursive;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
-#wrapper .header p {
+#wrapper .header .header_details p {
     color: #fff;
     font-size: 20px;
     margin: -5px 0 0;
@@ -28,7 +28,7 @@
 }
 
 #wrapper .header .header_details {
-    width: 360px;
+    width: 500px;
     margin: 0 auto;
 }
 
@@ -71,3 +71,12 @@
     margin: 0 -3px;
 }
 
+#wrapper .menu ul li a.active {
+    background-color: #f68710;
+    color: #fff;
+}
+
+#wrapper .menu ul li a:hover {
+    background-color: #ee9c45;
+    color: #fff;
+}
