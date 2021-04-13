@@ -155,8 +155,10 @@
 #wrapper .footer {
     padding: 20px 30px;
     background-color: #8dc6ed;
-    min-height: 100px;
     margin: 40px 0 0;
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 
 /* #wrapper .footer .footer_box {
@@ -172,6 +174,9 @@
 
 #wrapper .footer .footer_box ul li {
     margin: 10px 0;
+    margin-right: 30px;
+    display: inline-block;
+    width: 220px;
 }
 
 #wrapper .footer .footer_box ul li img {
@@ -179,6 +184,24 @@
     height: 20px;
     margin-right: 10px;
     float: left;
+    position: relative;
+    top: 2px;
+}
+
+#wrapper .footer .footer_box ul li:nth-child(1) {
+    width: 210px;
+}
+
+#wrapper .footer .footer_box ul li:nth-child(2) {
+    width: 170px;
+}
+
+#wrapper .footer .footer_box ul li:nth-child(3) {
+    width: 80px;
+}
+
+#wrapper .footer .footer_box ul li:nth-child(4) {
+    width: 95px;
 }
 
 #wrapper .footer .footer_box ul li a, #wrapper .footer .footer_box ul li p {
@@ -193,30 +216,6 @@
     text-align: center;
     padding: 10px;
     font-size: 11px;
-}
-
-@media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait) {
-    #wrapper .menu{
-        padding: 0;
-    }
-    #wrapper .menu li, #wrapper .menu li a{
-        width: 100%;
-    }
-    #wrapper .about{
-        flex-direction: column;
-    }
-    #wrapper .about .about_left{
-        width: 100%;
-    }
-    #wrapper .about .about_right {
-        padding: 10px 0 20px;
-    }
-    #wrapper .projects{
-        flex-direction: column;
-    }
-    #wrapper .projects .project{
-        width: 100%;
-    }
 }
 
 
