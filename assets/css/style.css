@@ -252,6 +252,19 @@
 }
 
 @media screen and (max-width: 767px) {
+    #wrapper .header .header_details {
+        width: 100%;
+        display: flex;
+    }
+
+    #wrapper .header .header_details .header_right h1 {
+        font-size: 20px;
+    }
+
+    #wrapper .header .header_details .header_right p {
+        font-size: 15px;
+    }
+
     #wrapper .menu {
         padding: 0;
         min-height: 42px;
